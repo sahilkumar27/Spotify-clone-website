@@ -19,24 +19,25 @@
 .img-section{
     display: flex;
     justify-content: space-between;
-    margin-left: 160px;
-    
+    margin-left: 175px;
     margin-top: 5px;
 }
 .spotify-logo{
-    width: 50px;
-    height: 50px;
-    margin-top: 8px;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
 }
 
 p{
-    margin: 19px 2px;
-    font-family: 'Roboto', sans-serif;
+    margin: 22px 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
     font-size: 24px;
     color: #fff;
 }
 .nav-section{
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -59,9 +60,10 @@ ul{
     gap: 30px;
     font-size: 21px;
     list-style: none;
+    font-size: 16px;
     padding: 20px 0px;
-    margin-right: 100px;
-    
+    margin-right: 140px;
+    margin-top: 10px;
 }
 
 .body-section{
@@ -117,7 +119,7 @@ ul{
     margin-top: 20px;
     border-radius: 30px;
     border: none;
-    background-color: black;
+    background-color: rgb(51, 50, 50);
     transition: 0.3s;
     letter-spacing: 0.1em;
 }
@@ -161,23 +163,31 @@ ul{
    
 }
 
+.description h4{
+    margin-left: 86px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
 .child-1 img{
-    width: 142px;
-    height: 142px;
-    margin-left: 100px;
+    width: 162px;
+    height: 162px;
+    margin-left: 90px;
     margin-top: 40px;
     background: rgb(97,9,121);
     background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
-    border-radius: 300px;
+    border-radius: 10px;
 }
 
-.play h4{
+/* .play h4{
     margin-left: 86px;
     margin-top: 20px;
     font-weight: bolder;
     font-size: 20px; 
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .pre{
     font-family: 'Roboto', sans-serif;
@@ -189,47 +199,247 @@ ul{
 }
 
 .child-2 img{
-    width: 142px;
-    height: 142px;
-    margin-left: 120px;
+    width: 162px;
+    height: 162px;
+    margin-left: 100px;
     margin-top: 40px;
+    background: rgb(97,9,121);
+    background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
+    border-radius: 10px;
 }
 
-.playlist h4{
+/* .playlist h4{
     margin-left: 100px;
     margin-top: 20px;
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 .child-3 img{
-    width: 142px;
-    height: 142px;
+    width: 162px;
+    height: 162px;
     margin-left: 80px;
     margin-top: 50px;
+    background: rgb(97,9,121);
+    background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
+    border-radius: 10px;
 }
 
-.love h4{
+/* .love h4{
     margin-left: 86px;
     margin-top: 20px;
     font-weight: bolder;
     font-size: 20px;
-}
+    font-family: 'Montserrat', sans-serif;
+} */
 
 .child-4 img{
-    width: 142px;
-    height: 142px;
-    margin-left: 75px;
+    width: 162px;
+    height: 162px;
+    margin-left: 65px;
     margin-top: 40px;
+    background: rgb(97,9,121);
+    background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
+    border-radius: 10px;
 }
 
-.save h4{
-    margin-left: 80px;
-    margin-top: 20px;
-    font-weight: bolder;
-    font-size: 20px;
+.after-dp{
+    text-align: center;
+    background: rgb(97,9,121);
+    background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
+    color: #fff;
+    font-weight: 900;
+    gap: 560px;
+    line-height: 1.4;
+    padding: 205px 75px ;
+    margin: auto;
+    align-items: center;
+    font-family: 'Poppins' ,sans-serif;
+    font-size: 30px;
+}
+
+/* .faq-container{
+    background-color: wheat;
+    font-family: 'Muli', sans-serif;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+} */
+h1{
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins' ,sans-serif; 
+    font-weight: 600;
+}
+
+.faq-container{
+    font-family: 'Muli', sans-serif;
+    background-color: 9fa4a8;
+    max-width: 1100px; 
+    margin: 0 auto;
 }
 
 
+.faq{
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    /* overflow: hidden - means nothing out of the container */
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+.faq:hover{
+    background-color: #dce3e9;
+}
 
+.faq.active{
+    background-color: #fff;
+    
+    /* rgb represent the color but the rgba color represents the color value of rgba with the ALPHA channel(opacity)  */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* with the helop of pseduo selector when the faq is active it represents Hello, whenever we used font awesome Unicode, tb humlog backslash(\) ka used krenge or fir uska unicode likh denge jo used krna hai humlog ko. Fir font-family k anndar font awesome ko include krenge  */
+.faq.active::before,
+.faq.active::after
+{
+    content: '\f075';
+    font-family: 'Font Awesome 5 Free';
+    color: #2ecc71;
+    /* 7 times whatever the root html elemnt font size is */
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+    /* Z index of zero so that we make sure that it's behind everything else */
+    z-index: 0;
+}
+
+.faq.active::before{
+    color: #3498db;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
+}
+
+.faq-title{
+    margin: 0 35px 0 0;
+
+}
+.faq-title:hover{
+    text-decoration: underline;
+}
+
+.faq-text{
+    /* display none rhega too text show mt kro */
+    display: none;
+    margin: 30px 0 0;
+    color: black;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+
+.faq.active .faq-text{
+    /* jab FAQ active rhe too display ko block kr do*/
+    display: block;   
+}
+
+/* for Button, we don't want to show the Cheveron(button) if it's expanded and we don't to show the X if it's not expanded */
+.faq-toggle{
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.faq-toggle:focus{
+    outline: 0;
+}
+
+/* X icon right here, times to dispaly none */
+.faq-toggle .fa-times{
+    display: none;
+} 
+
+/* So now we only see the Chevron, Now if it's active, we do want to see the times */
+.faq.active .faq-toggle .fa-times{
+    /* set the icon white */
+    color: #fff;
+    display: block;
+} 
+
+/* jab chevron ko down krenge too mera fa-times(cross symbol) show krege isliye chevron ko none kr diye */
+.faq.active .faq-toggle .fa-chevron-down{
+    display: none;
+} 
+
+.faq.active .faq-toggle{
+    background-color: #9fa4a8;
+}
+
+.second-last{
+    /* padding: 0px 100px 32px; */
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+    padding: 100px 55px;
+    margin: auto;
+    align-items: center;
+    font-family: 'Poppins' ,sans-serif;
+    /* font-size: 30px; */
+    background: rgb(97,9,121);
+    background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
+    border-radius: 10px;
+}
+
+.btn-2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 17px;
+    margin-top: 1px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(51, 50, 50);
+    transition: 0.3s;
+    letter-spacing: 0.1em;
+}
+
+.btn-2:hover{
+    transform: scale(1.1);
+}
+
+.main-footer{
+    padding: 30px 217px;
+    background-color: black;
+    margin: auto;
+   
+}
+.footer{
+    margin-left: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fot-logo img{
+    width: 45px;
+    height: 45px;
+}
