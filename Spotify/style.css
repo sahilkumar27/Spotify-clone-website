@@ -201,7 +201,7 @@ ul{
     margin-top: 40px;
     background: rgb(108,9,121);
     background: linear-gradient(302deg, rgba(108,9,121,0.8688725490196079) 57%, rgba(33,9,121,0.8324579831932774) 81%);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 
@@ -234,15 +234,32 @@ ul{
 } */
 .subscription-section{
 
-    background: rgb(170,8,156);
-    background: linear-gradient(180deg, rgba(170,8,156,1) 10%, rgba(6,4,166,0.978203781512605) 100%);
+     background: rgb(97,9,121);
+    background: linear-gradient(267deg, rgba(97,9,121,0.978203781512605) 8%, rgba(255,0,232,1) 100%);
+    border-radius: 10px;
     height: 650px;
     line-height: 1.6;
     align-items: center;
     font-size: 50px;
     color: white;
     position: relative;
+    color: #fff;
+
 }
+.gif-section-1 img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    /* margin-left: 295px;
+    margin-top: 105px; */
+    border-radius: 50%;
+    z-index: -1;
+    top: 140px;
+    left: 650px;
+    
+  
+}
+
 .subscription-section pre{
     font-family: 'Poppins' ,sans-serif; 
 
@@ -480,7 +497,9 @@ span{
     width: 100%;
 }
 
-
+.comp-1:hover{
+    color: #1ed760;
+}
 
 .fot-2{
     display: flex;
